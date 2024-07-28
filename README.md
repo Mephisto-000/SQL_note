@@ -10,5 +10,5 @@ Management Tool : SSMS 20.2
 
 
 
-## 第一章 利用 SQL 取得資料
+## 第一章 SQL 語言與資料庫建置
 
