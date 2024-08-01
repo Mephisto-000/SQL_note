@@ -1,15 +1,15 @@
--- SELECT �l�y��¦
+﻿-- SELECT 子句基礎
 
--- �d�� �ǥ� ��ƪ��� �Ǹ��B�m�W�B�ͤ� ������
-SELECT �Ǹ�, �m�W, �ͤ� FROM �ǥ�
+-- 查詢 學生 資料表的 學號、姓名、生日 的紀錄
+SELECT 學號, 姓名, 生日 FROM 學生
 
--- �d�� �ҵ{ ��ƪ����Ҧ�����
-SELECT * FROM �ҵ{
+-- 查詢 課程 資料表的所有紀錄
+SELECT * FROM 課程
 
--- ���(AS)�O�W�d��
-SELECT �Ǹ� AS �ǥ;Ǹ�, 
-	   �m�W AS �ǥͩm�W, 
-	   �ͤ� AS �ǥͥͤ�
+-- 欄位(AS)別名範例
+SELECT 學號 AS 學生學號, 
+	   姓名 AS 學生姓名, 
+	   生日 AS 學生生日
 
-	   FROM �ǥ�
+	   FROM 學生
 

@@ -1,15 +1,15 @@
--- SELECT �l�y��¦
+﻿-- SELECT 子句基礎
 
--- �޿�B��l�m�� LIKE
----- �d�߸�ƪ� �б� ���ݩ��T������t CS �M CIS ���б°O��
-SELECT * FROM �б�
-	WHERE ��t LIKE '%S%'
+-- 邏輯運算子練習 LIKE
+---- 查詢資料表 教授 中屬於資訊相關科系 CS 和 CIS 的教授記錄
+SELECT * FROM 教授
+	WHERE 科系 LIKE '%S%'
 
----- �d�߸�ƪ� �Z�� ���W�ұЫǦb�G�Ӫ��ҵ{���
-SELECT DISTINCT �ҵ{�s��, �W�Үɶ�, �Ы�
-	FROM �Z��
-	WHERE �Ы� LIKE '%2_-%'
+---- 查詢資料表 班級 中上課教室在二樓的課程資料
+SELECT DISTINCT 課程編號, 上課時間, 教室
+	FROM 班級
+	WHERE 教室 LIKE '%2_-%'
 
----- �d�߸�ƪ� ���u�� �����Ҧr���O A-D �d��r���}�Y�����u���
-SELECT * FROM ���u
-	WHERE �����Ҧr�� LIKE '[A-D]%'
+---- 查詢資料表 員工中 身份證字號是 A-D 範圍字母開頭的員工資料
+SELECT * FROM 員工
+	WHERE 身份證字號 LIKE '[A-D]%'

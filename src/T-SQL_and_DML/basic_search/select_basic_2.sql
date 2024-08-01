@@ -1,20 +1,20 @@
--- SELECT ¤l¥y°òÂ¦
+ï»¿-- SELECT å­å¥åŸºç¤Ž
 
--- ºâ³N¹Bºâ¤l½m²ß
----- ­pºâ­û¤uÁ~¤ô²bÃB : Á~¤ô - ¦©µ|
-SELECT ¨­¥÷ÃÒ¦r¸¹, ©m¦W, 
-	   Á~¤ô - ¦©µ| AS Á~¤ô²bÃB
-	   FROM ­û¤u
+-- ç®—è¡“é‹ç®—å­ç·´ç¿’
+---- è¨ˆç®—å“¡å·¥è–ªæ°´æ·¨é¡ : è–ªæ°´ - æ‰£ç¨…
+SELECT èº«ä»½è­‰å­—è™Ÿ, å§“å, 
+	   è–ªæ°´ - æ‰£ç¨… AS è–ªæ°´æ·¨é¡
+	   FROM å“¡å·¥
 
----- ¦r¦ê³s±µ
-SELECT ¨­¥÷ÃÒ¦r¸¹, ©m¦W, 
-	   «°¥« + '¥«' + µó¹D AS ¦a§}
-	   FROM ­û¤u
+---- å­—ä¸²é€£æŽ¥
+SELECT èº«ä»½è­‰å­—è™Ÿ, å§“å, 
+	   åŸŽå¸‚ + 'å¸‚' + è¡—é“ AS åœ°å€
+	   FROM å“¡å·¥
 
--- T-SQL ¨ç¼Æ¨Ï¥Î
----- ±q¾Ç¥Íªº¥Í¤é¸ê®Æ¡A§Q¥Î¤º«Ø¨ç¼Æ­pºâ¦~ÄÖ
-SELECT ¾Ç¸¹, ©m¦W, 
-	   GETDATE() AS ¤µ¤Ñ, 
-	   DATEDIFF(year, ¥Í¤é, GETDATE()) AS ¦~ÄÖ
-	   FROM ¾Ç¥Í
+-- T-SQL å‡½æ•¸ä½¿ç”¨
+---- å¾žå­¸ç”Ÿçš„ç”Ÿæ—¥è³‡æ–™ï¼Œåˆ©ç”¨å…§å»ºå‡½æ•¸è¨ˆç®—å¹´é½¡
+SELECT å­¸è™Ÿ, å§“å, 
+	   GETDATE() AS ä»Šå¤©, 
+	   DATEDIFF(year, ç”Ÿæ—¥, GETDATE()) AS å¹´é½¡
+	   FROM å­¸ç”Ÿ
 

@@ -1,15 +1,15 @@
--- SELECT �l�y��¦
+﻿-- SELECT 子句基礎
 
--- WHERE �l�y
----- ����Ȭ��r��
-SELECT * FROM �ǥ�	
-	WHERE �Ǹ� = 'S002'
+-- WHERE 子句
+---- 條件值為字串
+SELECT * FROM 學生	
+	WHERE 學號 = 'S002'
 
----- ����Ȭ��ƭ�
-SELECT * FROM ���u
-	WHERE �~��<50000
+---- 條件值為數值
+SELECT * FROM 員工
+	WHERE 薪水<50000
 
----- ����Ȭ����/�ɶ�
-SELECT * FROM �ǥ�
-	WHERE �ͤ� = '2004-02-02'
+---- 條件值為日期/時間
+SELECT * FROM 學生
+	WHERE 生日 = '2004-02-02'
 
