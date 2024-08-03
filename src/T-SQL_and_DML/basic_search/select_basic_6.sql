@@ -18,3 +18,8 @@ SELECT * FROM 課程
 SELECT * FROM 課程
 	WHERE 學分 IN (2, 4)
 
+-- NOT
+---- 查詢課程編號不是 CS101、CS222、CS100、CS213 的課程
+SELECT * FROM 課程
+	WHERE 課程編號 NOT IN ('CS101', 'CS222', 'CS100', 'CS213')
+
